@@ -2,13 +2,13 @@ program StockFlow;
 
 uses
   Vcl.Forms,
-  ULogin in 'ULogin.pas' {Form2};
+  FrmLogin in 'View\FrmLogin.pas' {FrmLogin};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TFrmLogin, FrmLoginForm);
   Application.Run;
 end.
