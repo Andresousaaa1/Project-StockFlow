@@ -5,12 +5,11 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons,
-  Vcl.Imaging.pngimage, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
+  Vcl.Imaging.pngimage, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Skia, FrmFornecedor, FrmClientes;
 
 type
   TFormProdutos = class(TForm)
     Panel1: TPanel;
-    Panel2: TPanel;
     Panel3: TPanel;
     Panel4: TPanel;
     Panel5: TPanel;
@@ -23,7 +22,6 @@ type
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     SpeedButton6: TSpeedButton;
-    Image1: TImage;
     GroupBoxProd1: TGroupBox;
     GroupBoxProd2: TGroupBox;
     EdtPrecoUnitario: TEdit;
@@ -51,6 +49,10 @@ type
     Image6: TImage;
     Image3: TImage;
     Image7: TImage;
+    Panel2: TPanel;
+    Image1: TImage;
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     { Public declarations }
   public
@@ -59,11 +61,37 @@ type
 
 var
   FormProdutos: TFormProdutos;
+  FrmFornecedores: TFrmFornecedores;
+  FrmCliente: TFrmCliente;
+
 
 implementation
 
 {$R *.dfm}
 
 
+procedure TFormProdutos.SpeedButton2Click(Sender: TObject);
+var
+  frm: TFrmFornecedores;
+begin
+  frm := TFrmFornecedores.Create(nil);
+  try
+    frm.ShowModal;
+  finally
+    frm.Free;  // libera a memória assim que fechar
+  end;
+end;
+
+procedure TFormProdutos.SpeedButton3Click(Sender: TObject);
+var
+  frm: TFrmCliente;
+begin
+  frm := TFrmCliente.Create(nil);
+  try
+    frm.ShowModal;
+  finally
+    frm.Free;  // libera a memória assim que fechar
+  end;
+end;
 end.
 

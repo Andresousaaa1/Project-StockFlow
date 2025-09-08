@@ -49,6 +49,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton3Click
       end
       object Image5: TImage
         Left = 8
@@ -115,6 +116,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton2Click
       end
       object Image6: TImage
         Left = 8
@@ -190,6 +192,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton4Click
       end
       object Image4: TImage
         Left = 8
@@ -409,14 +412,279 @@ object FormProdutos: TFormProdutos
       end
     end
   end
+  object GroupBoxProd1: TGroupBox
+    Left = 232
+    Top = 170
+    Width = 610
+    Height = 175
+    Caption = 'Dados do Produto'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 20
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 24
+      Top = 35
+      Width = 120
+      Height = 20
+      Caption = 'Nome do Produto'
+    end
+    object Label2: TLabel
+      Left = 24
+      Top = 103
+      Width = 94
+      Height = 20
+      Caption = 'Pre'#231'o Unit'#225'rio'
+    end
+    object Label3: TLabel
+      Left = 316
+      Top = 37
+      Width = 135
+      Height = 19
+      Caption = 'Unidade de Medida:'
+    end
+    object Label4: TLabel
+      Left = 316
+      Top = 103
+      Width = 108
+      Height = 20
+      Caption = 'Estoque M'#237'nimo'
+    end
+    object EdtPrecoUnitario: TEdit
+      Left = 24
+      Top = 129
+      Width = 230
+      Height = 28
+      TabOrder = 0
+    end
+    object EdtNomeProduto: TEdit
+      Left = 24
+      Top = 61
+      Width = 230
+      Height = 28
+      TabOrder = 1
+    end
+    object EdtEstMinimo: TEdit
+      Left = 316
+      Top = 62
+      Width = 230
+      Height = 28
+      TabOrder = 2
+    end
+    object Edit1: TEdit
+      Left = 316
+      Top = 129
+      Width = 230
+      Height = 28
+      TabOrder = 3
+    end
+  end
+  object GroupBoxProd2: TGroupBox
+    Left = 232
+    Top = 368
+    Width = 610
+    Height = 206
+    Color = clWhite
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 2
+    object DBGrid1: TDBGrid
+      Left = 0
+      Top = 72
+      Width = 609
+      Height = 132
+      TabOrder = 0
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -12
+      TitleFont.Name = 'Segoe UI'
+      TitleFont.Style = []
+      Columns = <
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end>
+    end
+    object Panel9: TPanel
+      Left = 35
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = clGray
+      ParentBackground = False
+      TabOrder = 1
+      object SpeedButtonNovo: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Novo'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = -31
+      end
+    end
+    object Panel10: TPanel
+      Left = 140
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = 16743168
+      ParentBackground = False
+      TabOrder = 2
+      object SpeedButtonEditar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Editar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 49
+        ExplicitTop = 3
+      end
+    end
+    object Panel11: TPanel
+      Left = 248
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = 3698944
+      ParentBackground = False
+      TabOrder = 3
+      object SpeedButtonSalvar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Salvar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 0
+        ExplicitTop = 5
+        ExplicitWidth = 70
+        ExplicitHeight = 20
+      end
+    end
+    object Panel12: TPanel
+      Left = 353
+      Top = 24
+      Width = 68
+      Height = 25
+      Color = 8222060
+      ParentBackground = False
+      TabOrder = 4
+      object SpeedButtonCancelar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 66
+        Height = 23
+        Align = alClient
+        Caption = 'Cancelar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitWidth = 68
+        ExplicitHeight = 24
+      end
+    end
+    object Panel13: TPanel
+      Left = 512
+      Top = 23
+      Width = 70
+      Height = 25
+      Color = clRed
+      ParentBackground = False
+      TabOrder = 5
+      object SpeedButtonExcluir: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Excluir'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 0
+        ExplicitTop = 5
+        ExplicitWidth = 70
+        ExplicitHeight = 20
+      end
+    end
+  end
   object Panel2: TPanel
     Left = 184
     Top = 0
-    Width = 755
+    Width = 745
     Height = 140
     Color = 32228
     ParentBackground = False
-    TabOrder = 1
+    TabOrder = 3
     object Image1: TImage
       Left = 0
       Top = 0
@@ -2246,271 +2514,6 @@ object FormProdutos: TFormProdutos
         26C8000062820C002026C8000062820C002026C8000062820C002026C8000062
         820C0020F61315F3560B10128BA40000000049454E44AE426082}
       Stretch = True
-    end
-  end
-  object GroupBoxProd1: TGroupBox
-    Left = 232
-    Top = 170
-    Width = 610
-    Height = 175
-    Caption = 'Dados do Produto'
-    Color = clWhite
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = 20
-    Font.Name = 'Segoe UI'
-    Font.Style = []
-    ParentBackground = False
-    ParentColor = False
-    ParentFont = False
-    TabOrder = 2
-    object Label1: TLabel
-      Left = 24
-      Top = 35
-      Width = 120
-      Height = 20
-      Caption = 'Nome do Produto'
-    end
-    object Label2: TLabel
-      Left = 24
-      Top = 103
-      Width = 94
-      Height = 20
-      Caption = 'Pre'#231'o Unit'#225'rio'
-    end
-    object Label3: TLabel
-      Left = 316
-      Top = 37
-      Width = 135
-      Height = 19
-      Caption = 'Unidade de Medida:'
-    end
-    object Label4: TLabel
-      Left = 316
-      Top = 103
-      Width = 108
-      Height = 20
-      Caption = 'Estoque M'#237'nimo'
-    end
-    object EdtPrecoUnitario: TEdit
-      Left = 24
-      Top = 129
-      Width = 230
-      Height = 28
-      TabOrder = 0
-    end
-    object EdtNomeProduto: TEdit
-      Left = 24
-      Top = 61
-      Width = 230
-      Height = 28
-      TabOrder = 1
-    end
-    object EdtEstMinimo: TEdit
-      Left = 316
-      Top = 62
-      Width = 230
-      Height = 28
-      TabOrder = 2
-    end
-    object Edit1: TEdit
-      Left = 316
-      Top = 129
-      Width = 230
-      Height = 28
-      TabOrder = 3
-    end
-  end
-  object GroupBoxProd2: TGroupBox
-    Left = 232
-    Top = 368
-    Width = 610
-    Height = 206
-    Color = clWhite
-    ParentBackground = False
-    ParentColor = False
-    TabOrder = 3
-    object DBGrid1: TDBGrid
-      Left = 0
-      Top = 72
-      Width = 609
-      Height = 132
-      TabOrder = 0
-      TitleFont.Charset = DEFAULT_CHARSET
-      TitleFont.Color = clWindowText
-      TitleFont.Height = -12
-      TitleFont.Name = 'Segoe UI'
-      TitleFont.Style = []
-      Columns = <
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end>
-    end
-    object Panel9: TPanel
-      Left = 35
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = clGray
-      ParentBackground = False
-      TabOrder = 1
-      object SpeedButtonNovo: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Novo'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = -31
-      end
-    end
-    object Panel10: TPanel
-      Left = 140
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = 16743168
-      ParentBackground = False
-      TabOrder = 2
-      object SpeedButtonEditar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Editar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 49
-        ExplicitTop = 3
-      end
-    end
-    object Panel11: TPanel
-      Left = 248
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = 3698944
-      ParentBackground = False
-      TabOrder = 3
-      object SpeedButtonSalvar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Salvar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 5
-        ExplicitWidth = 70
-        ExplicitHeight = 20
-      end
-    end
-    object Panel12: TPanel
-      Left = 353
-      Top = 24
-      Width = 68
-      Height = 25
-      Color = 8222060
-      ParentBackground = False
-      TabOrder = 4
-      object SpeedButtonCancelar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 66
-        Height = 23
-        Align = alClient
-        Caption = 'Cancelar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitWidth = 68
-        ExplicitHeight = 24
-      end
-    end
-    object Panel13: TPanel
-      Left = 512
-      Top = 23
-      Width = 70
-      Height = 25
-      Color = clRed
-      ParentBackground = False
-      TabOrder = 5
-      object SpeedButtonExcluir: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Excluir'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 5
-        ExplicitWidth = 70
-        ExplicitHeight = 20
-      end
     end
   end
 end

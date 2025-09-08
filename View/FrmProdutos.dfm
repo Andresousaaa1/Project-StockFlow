@@ -49,12 +49,50 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton3Click
       end
       object Image5: TImage
         Left = 8
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D333230203830433337372E3420383020343234
+          203132362E36203432342031383443343234203234312E34203337372E342032
+          38382033323020323838433236322E362032383820323136203234312E342032
+          31362031383443323136203132362E36203236322E3620383020333230203830
+          7A4D393620313532433133352E382031353220313638203138342E3220313638
+          2032323443313638203236332E38203133352E38203239362039362032393643
+          35362E3220323936203234203236332E3820323420323234433234203138342E
+          322035362E3220313532203936203135327A4D30203438304330203430392E33
+          2035372E33203335322031323820333532433134302E3820333532203135332E
+          32203335332E39203136342E39203335372E3443313332203339342E32203131
+          32203434322E3820313132203439364C3131322035313243313132203532332E
+          34203131342E34203533342E32203131382E37203534344C3332203534344331
+          342E33203534342030203532392E372030203531324C30203438307A4D353231
+          2E3320353434433532352E36203533342E3220353238203532332E3420353238
+          203531324C3532382034393643353238203434322E3820353038203339342E32
+          203437352E31203335372E34433438362E38203335332E39203439392E322033
+          35322035313220333532433538322E372033353220363430203430392E332036
+          3430203438304C3634302035313243363430203532392E37203632352E372035
+          343420363038203534344C3532312E33203534347A4D34373220323234433437
+          32203138342E32203530342E32203135322035343420313532433538332E3820
+          31353220363136203138342E32203631362032323443363136203236332E3820
+          3538332E38203239362035343420323936433530342E32203239362034373220
+          3236332E3820343732203232347A4D3136302034393643313630203430372E36
+          203233312E36203333362033323020333336433430382E342033333620343830
+          203430372E3620343830203439364C3438302035313243343830203532392E37
+          203436352E372035343420343438203534344C31393220353434433137342E33
+          2035343420313630203532392E3720313630203531324C313630203439367A22
+          2F3E3C2F7376673E}
+        Stretch = True
       end
     end
     object Panel3: TPanel
@@ -78,12 +116,53 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton2Click
       end
       object Image6: TImage
         Left = 8
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D363420313630433634203132342E372039322E
+          37203936203132382039364C343136203936433435312E332039362034383020
+          3132342E3720343830203136304C343830203139324C3533302E372031393243
+          3534372E372031393220353634203139382E3720353736203231302E374C3632
+          312E3320323536433633332E332032363820363430203238342E332036343020
+          3330312E334C3634302034343843363430203438332E33203631312E33203531
+          3220353736203531324C3537322E3720353132433536322E33203534382E3920
+          3532382E33203537362034383820353736433434372E3720353736203431332E
+          38203534382E39203430332E33203531324C3330302E3720353132433239302E
+          33203534382E39203235362E33203537362032313620353736433137352E3720
+          353736203134312E38203534382E39203133312E33203531324C313238203531
+          324339322E3720353132203634203438332E33203634203434384C3634203430
+          304C3234203430304331302E37203430302030203338392E3320302033373643
+          30203336322E372031302E3720333532203234203335324C3133362033353243
+          3134392E332033353220313630203334312E3320313630203332384331363020
+          3331342E37203134392E332033303420313336203330344C3234203330344331
+          302E37203330342030203239332E332030203238304330203236362E37203130
+          2E3720323536203234203235364C32303020323536433231332E332032353620
+          323234203234352E33203232342032333243323234203231382E37203231332E
+          332032303820323030203230384C3234203230384331302E3720323038203020
+          3139372E332030203138344330203137302E372031302E372031363020323420
+          3136304C3634203136307A4D353736203335324C353736203330312E334C3533
+          302E37203235364C343830203235364C343830203335324C353736203335327A
+          4D3235362034383843323536203436352E39203233382E312034343820323136
+          20343438433139332E392034343820313736203436352E392031373620343838
+          43313736203531302E31203139332E3920353238203231362035323843323338
+          2E312035323820323536203531302E3120323536203438387A4D343838203532
+          38433531302E312035323820353238203531302E312035323820343838433532
+          38203436352E39203531302E31203434382034383820343438433436352E3920
+          34343820343438203436352E39203434382034383843343438203531302E3120
+          3436352E392035323820343838203532387A222F3E3C2F7376673E}
+        Stretch = True
       end
     end
     object Panel5: TPanel
@@ -119,6 +198,25 @@ object FormProdutos: TFormProdutos
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D33323020333132433338362E33203331322034
+          3430203235382E33203434302031393243343430203132352E37203338362E33
+          20373220333230203732433235332E3720373220323030203132352E37203230
+          302031393243323030203235382E33203235332E372033313220333230203331
+          327A4D3239302E3320333638433139312E382033363820313132203434372E38
+          20313132203534362E3343313132203536322E37203132352E33203537362031
+          34312E37203537364C3439382E3320353736433531342E372035373620353238
+          203536322E3720353238203534362E3343353238203434372E38203434382E32
+          20333638203334392E37203336384C3239302E33203336387A222F3E3C2F7376
+          673E}
+        Stretch = True
       end
     end
     object Panel6: TPanel
@@ -154,6 +252,41 @@ object FormProdutos: TFormProdutos
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D3534342E31203235364C353532203235364335
+          36352E332032353620353736203234352E3320353736203233324C3537362038
+          38433537362037382E33203537302E322036392E35203536312E322036352E38
+          433535322E322036322E31203534312E392036342E32203533352037314C3438
+          332E33203132322E38433433392038362E312033383220363420333230203634
+          433139312036342038342E33203135392E342036362E36203238332E35433634
+          2E31203330312037362E32203331372E322039332E37203331392E3743313131
+          2E32203332322E32203132372E3420333130203132392E39203239322E364331
+          34332E32203139392E35203232332E3320313238203332302031323843333634
+          2E3420313238203430352E3220313433203433372E37203136382E334C333931
+          20323135433338342E31203232312E39203338322E31203233322E3220333835
+          2E38203234312E32433338392E35203235302E32203339382E33203235362034
+          3038203235364C3534342E31203235367A4D3537332E35203335362E35433537
+          3620333339203536332E38203332322E38203534362E34203332302E33433532
+          39203331372E38203531322E3720333330203531302E32203334372E34433439
+          362E39203434302E34203431362E38203531312E39203332302E31203531312E
+          39433237352E37203531312E39203233342E39203439362E39203230322E3420
+          3437312E364C32343920343235433235352E39203431382E31203235372E3920
+          3430372E38203235342E32203339382E38433235302E35203338392E38203234
+          312E372033383420323332203338344C3838203338344337342E372033383420
+          3634203339342E37203634203430384C363420353532433634203536312E3720
+          36392E38203537302E352037382E38203537342E324338372E38203537372E39
+          2039382E31203537352E3820313035203536394C3135362E38203531372E3243
+          323031203535332E392032353820353736203332302035373643343439203537
+          36203535352E37203438302E36203537332E34203335362E357A222F3E3C2F73
+          76673E}
+        Stretch = True
       end
     end
     object Panel8: TPanel
@@ -189,6 +322,30 @@ object FormProdutos: TFormProdutos
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D3235362031343443323536203131372E352032
+          37372E35203936203330342039364C333336203936433336322E352039362033
+          3834203131372E3520333834203134344C333834203439364333383420353232
+          2E35203336322E352035343420333336203534344C3330342035343443323737
+          2E352035343420323536203532322E3520323536203439364C32353620313434
+          7A4D363420333336433634203330392E352038352E3520323838203131322032
+          38384C31343420323838433137302E352032383820313932203330392E352031
+          3932203333364C3139322034393643313932203532322E35203137302E352035
+          343420313434203534344C313132203534344338352E35203534342036342035
+          32322E35203634203439364C3634203333367A4D343936203136304C35323820
+          313630433535342E352031363020353736203138312E3520353736203230384C
+          3537362034393643353736203532322E35203535342E35203534342035323820
+          3534344C34393620353434433436392E352035343420343438203532322E3520
+          343438203439364C3434382032303843343438203138312E35203436392E3520
+          31363020343936203136307A222F3E3C2F7376673E}
+        Stretch = True
       end
     end
     object Panel7: TPanel
@@ -224,17 +381,309 @@ object FormProdutos: TFormProdutos
         Top = 8
         Width = 25
         Height = 25
+        Picture.Data = {
+          0D54536B537667477261706869633C73766720786D6C6E733D22687474703A2F
+          2F7777772E77332E6F72672F323030302F737667222076696577426F783D2230
+          20302036343020363430223E3C212D2D21466F6E7420417765736F6D65204672
+          656520372E302E312062792040666F6E74617765736F6D65202D206874747073
+          3A2F2F666F6E74617765736F6D652E636F6D204C6963656E7365202D20687474
+          70733A2F2F666F6E74617765736F6D652E636F6D2F6C6963656E73652F667265
+          6520436F70797269676874203230323520466F6E7469636F6E732C20496E632E
+          2D2D3E3C7061746820643D224D3235362031343443323536203130382E372032
+          38342E3720383020333230203830433335352E3320383020333834203130382E
+          3720333834203134344C333834203139324C323536203139324C323536203134
+          347A4D323038203139324C31343420313932433131372E352031393220393620
+          3231332E35203936203234304C39362034343843393620353031203133392035
+          343420313932203534344C343438203534344335303120353434203534342035
+          303120353434203434384C3534342032343043353434203231332E3520353232
+          2E352031393220343936203139324C343332203139324C343332203134344334
+          33322038322E31203338312E3920333220333230203332433235382E31203332
+          203230382038322E3120323038203134344C323038203139327A4D3233322032
+          3430433234352E332032343020323536203235302E3720323536203236344332
+          3536203237372E33203234352E33203238382032333220323838433231382E37
+          2032383820323038203237372E33203230382032363443323038203235302E37
+          203231382E372032343020323332203234307A4D333834203236344333383420
+          3235302E37203339342E37203234302034303820323430433432312E33203234
+          3020343332203235302E37203433322032363443343332203237372E33203432
+          312E33203238382034303820323838433339342E372032383820333834203237
+          372E3320333834203236347A222F3E3C2F7376673E}
+        Stretch = True
+      end
+    end
+  end
+  object GroupBoxProd1: TGroupBox
+    Left = 232
+    Top = 170
+    Width = 610
+    Height = 175
+    Caption = 'Dados do Produto'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 20
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 24
+      Top = 35
+      Width = 120
+      Height = 20
+      Caption = 'Nome do Produto'
+    end
+    object Label2: TLabel
+      Left = 24
+      Top = 103
+      Width = 94
+      Height = 20
+      Caption = 'Pre'#231'o Unit'#225'rio'
+    end
+    object Label3: TLabel
+      Left = 316
+      Top = 37
+      Width = 135
+      Height = 19
+      Caption = 'Unidade de Medida:'
+    end
+    object Label4: TLabel
+      Left = 316
+      Top = 103
+      Width = 108
+      Height = 20
+      Caption = 'Estoque M'#237'nimo'
+    end
+    object EdtPrecoUnitario: TEdit
+      Left = 24
+      Top = 129
+      Width = 230
+      Height = 28
+      TabOrder = 0
+    end
+    object EdtNomeProduto: TEdit
+      Left = 24
+      Top = 61
+      Width = 230
+      Height = 28
+      TabOrder = 1
+    end
+    object EdtEstMinimo: TEdit
+      Left = 316
+      Top = 62
+      Width = 230
+      Height = 28
+      TabOrder = 2
+    end
+    object Edit1: TEdit
+      Left = 316
+      Top = 129
+      Width = 230
+      Height = 28
+      TabOrder = 3
+    end
+  end
+  object GroupBoxProd2: TGroupBox
+    Left = 232
+    Top = 368
+    Width = 610
+    Height = 206
+    Color = clWhite
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 2
+    object DBGrid1: TDBGrid
+      Left = 0
+      Top = 72
+      Width = 609
+      Height = 132
+      TabOrder = 0
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -12
+      TitleFont.Name = 'Segoe UI'
+      TitleFont.Style = []
+      Columns = <
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end
+        item
+          Expanded = False
+          Visible = True
+        end>
+    end
+    object Panel9: TPanel
+      Left = 35
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = clGray
+      ParentBackground = False
+      TabOrder = 1
+      object SpeedButtonNovo: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Novo'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = -31
+      end
+    end
+    object Panel10: TPanel
+      Left = 140
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = 16743168
+      ParentBackground = False
+      TabOrder = 2
+      object SpeedButtonEditar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Editar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 49
+        ExplicitTop = 3
+      end
+    end
+    object Panel11: TPanel
+      Left = 248
+      Top = 24
+      Width = 70
+      Height = 25
+      Color = 3698944
+      ParentBackground = False
+      TabOrder = 3
+      object SpeedButtonSalvar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Salvar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 0
+        ExplicitTop = 5
+        ExplicitWidth = 70
+        ExplicitHeight = 20
+      end
+    end
+    object Panel12: TPanel
+      Left = 353
+      Top = 24
+      Width = 68
+      Height = 25
+      Color = 8222060
+      ParentBackground = False
+      TabOrder = 4
+      object SpeedButtonCancelar: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 66
+        Height = 23
+        Align = alClient
+        Caption = 'Cancelar'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitWidth = 68
+        ExplicitHeight = 24
+      end
+    end
+    object Panel13: TPanel
+      Left = 512
+      Top = 23
+      Width = 70
+      Height = 25
+      Color = clRed
+      ParentBackground = False
+      TabOrder = 5
+      object SpeedButtonExcluir: TSpeedButton
+        Left = 1
+        Top = 1
+        Width = 68
+        Height = 23
+        Align = alClient
+        Caption = 'Excluir'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 0
+        ExplicitTop = 5
+        ExplicitWidth = 70
+        ExplicitHeight = 20
       end
     end
   end
   object Panel2: TPanel
     Left = 184
     Top = 0
-    Width = 755
+    Width = 745
     Height = 140
     Color = 32228
     ParentBackground = False
-    TabOrder = 1
+    TabOrder = 3
     object Image1: TImage
       Left = 0
       Top = 0
@@ -2064,271 +2513,6 @@ object FormProdutos: TFormProdutos
         26C8000062820C002026C8000062820C002026C8000062820C002026C8000062
         820C0020F61315F3560B10128BA40000000049454E44AE426082}
       Stretch = True
-    end
-  end
-  object GroupBoxProd1: TGroupBox
-    Left = 232
-    Top = 170
-    Width = 610
-    Height = 175
-    Caption = 'Dados do Produto'
-    Color = clWhite
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = 20
-    Font.Name = 'Segoe UI'
-    Font.Style = []
-    ParentBackground = False
-    ParentColor = False
-    ParentFont = False
-    TabOrder = 2
-    object Label1: TLabel
-      Left = 24
-      Top = 35
-      Width = 120
-      Height = 20
-      Caption = 'Nome do Produto'
-    end
-    object Label2: TLabel
-      Left = 24
-      Top = 103
-      Width = 94
-      Height = 20
-      Caption = 'Pre'#231'o Unit'#225'rio'
-    end
-    object Label3: TLabel
-      Left = 316
-      Top = 37
-      Width = 135
-      Height = 19
-      Caption = 'Unidade de Medida:'
-    end
-    object Label4: TLabel
-      Left = 316
-      Top = 103
-      Width = 108
-      Height = 20
-      Caption = 'Estoque M'#237'nimo'
-    end
-    object EdtPrecoUnitario: TEdit
-      Left = 24
-      Top = 129
-      Width = 230
-      Height = 28
-      TabOrder = 0
-    end
-    object EdtNomeProduto: TEdit
-      Left = 24
-      Top = 61
-      Width = 230
-      Height = 28
-      TabOrder = 1
-    end
-    object EdtEstMinimo: TEdit
-      Left = 316
-      Top = 62
-      Width = 230
-      Height = 28
-      TabOrder = 2
-    end
-    object Edit1: TEdit
-      Left = 316
-      Top = 129
-      Width = 230
-      Height = 28
-      TabOrder = 3
-    end
-  end
-  object GroupBoxProd2: TGroupBox
-    Left = 232
-    Top = 368
-    Width = 610
-    Height = 206
-    Color = clWhite
-    ParentBackground = False
-    ParentColor = False
-    TabOrder = 3
-    object DBGrid1: TDBGrid
-      Left = 0
-      Top = 72
-      Width = 609
-      Height = 132
-      TabOrder = 0
-      TitleFont.Charset = DEFAULT_CHARSET
-      TitleFont.Color = clWindowText
-      TitleFont.Height = -12
-      TitleFont.Name = 'Segoe UI'
-      TitleFont.Style = []
-      Columns = <
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end
-        item
-          Expanded = False
-          Visible = True
-        end>
-    end
-    object Panel9: TPanel
-      Left = 35
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = clGray
-      ParentBackground = False
-      TabOrder = 1
-    end
-    object Panel10: TPanel
-      Left = 140
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = 16743168
-      ParentBackground = False
-      TabOrder = 2
-    end
-    object Panel11: TPanel
-      Left = 248
-      Top = 24
-      Width = 70
-      Height = 25
-      Color = 3698944
-      ParentBackground = False
-      TabOrder = 3
-    end
-    object Panel12: TPanel
-      Left = 340
-      Top = 23
-      Width = 70
-      Height = 25
-      Color = 8222060
-      ParentBackground = False
-      TabOrder = 4
-    end
-    object Panel13: TPanel
-      Left = 504
-      Top = 159
-      Width = 70
-      Height = 25
-      Color = clGray
-      ParentBackground = False
-      TabOrder = 5
-      object SpeedButtonCancelar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Cancelar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 15
-        ExplicitTop = 9
-      end
-      object SpeedButtonNovo: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Novo'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = -31
-      end
-      object SpeedButtonExcluir: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Excluir'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 5
-        ExplicitWidth = 70
-        ExplicitHeight = 20
-      end
-      object SpeedButtonEditar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Editar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 49
-        ExplicitTop = 3
-      end
-      object SpeedButtonSalvar: TSpeedButton
-        Left = 1
-        Top = 1
-        Width = 68
-        Height = 23
-        Align = alClient
-        Caption = 'Salvar'
-        Flat = True
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWhite
-        Font.Height = -12
-        Font.Name = 'Segoe UI'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 5
-        ExplicitWidth = 70
-        ExplicitHeight = 20
-      end
     end
   end
 end

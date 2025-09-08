@@ -1,0 +1,46 @@
+unit FrmFornecedor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Skia, Vcl.ExtCtrls, Vcl.Buttons,
+  Vcl.Imaging.pngimage;
+
+type
+  TFrmFornecedores = class(TForm)
+    Panel1: TPanel;
+    Panel4: TPanel;
+    SpeedButton3: TSpeedButton;
+    Image5: TImage;
+    Panel3: TPanel;
+    SpeedButton2: TSpeedButton;
+    Image6: TImage;
+    Panel5: TPanel;
+    SpeedButton4: TSpeedButton;
+    Image4: TImage;
+    Panel6: TPanel;
+    SpeedButton5: TSpeedButton;
+    Image3: TImage;
+    Panel8: TPanel;
+    SpeedButton6: TSpeedButton;
+    Image7: TImage;
+    Panel7: TPanel;
+    SpeedButton1: TSpeedButton;
+    Image2: TImage;
+    Panel2: TPanel;
+    Image1: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmFornecedores: TFrmFornecedores;
+
+implementation
+
+{$R *.dfm}
+
+end.
