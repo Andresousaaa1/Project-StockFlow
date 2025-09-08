@@ -3,7 +3,7 @@ object FrmLogin: TFrmLogin
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'Login'
+  Caption = 'StockFlow - Login'
   ClientHeight = 582
   ClientWidth = 932
   Color = clBtnFace

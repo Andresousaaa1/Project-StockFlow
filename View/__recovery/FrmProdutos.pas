@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons,
   Vcl.Imaging.pngimage, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Skia, FrmFornecedor, FrmClientes,
-  FrmUsuarios;
+  FrmUsuarios, FrmMovimentos;
 
 type
   TFormProdutos = class(TForm)
@@ -55,6 +55,7 @@ type
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
     procedure SpeedButton4Click(Sender: TObject);
+    procedure SpeedButton5Click(Sender: TObject);
   private
     { Public declarations }
   public
@@ -65,7 +66,8 @@ var
   FormProdutos: TFormProdutos;
   FrmFornecedores: TFrmFornecedores;
   FrmCliente: TFrmCliente;
-   FrmUsuario: TFrmUsuario;
+  FrmUsuario: TFrmUsuario;
+  FrmMovimento: TFrmMovimento;
 
 
 implementation
@@ -108,5 +110,16 @@ begin
   end;
 end;
 
+procedure TFormProdutos.SpeedButton5Click(Sender: TObject);
+var
+  frm: TFrmMovimento;
+begin
+  frm := TFrmMovimento.Create(nil);
+  try
+    frm.ShowModal;
+  finally
+    frm.Free;  // libera a memória assim que fechar
+  end;
+end;
 end.
 

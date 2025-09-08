@@ -140,6 +140,14 @@
             <Form>FrmCliente</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View\FrmUsuarios.pas">
+            <Form>FrmUsuario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="View\FrmMovimentos.pas">
+            <Form>FrmMovimento</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

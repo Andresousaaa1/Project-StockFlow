@@ -9,10 +9,6 @@ uses
 
 type
   TFrmUsuario = class(TForm)
-    Panel1: TPanel;
-    Panel3: TPanel;
-    SpeedButton2: TSpeedButton;
-    Image6: TImage;
     Panel2: TPanel;
     Image1: TImage;
     GroupBoxProd1: TGroupBox;
@@ -31,6 +27,13 @@ type
     Panel12: TPanel;
     SpeedButtonCancelar: TSpeedButton;
     ComboBox1: TComboBox;
+    Panel1: TPanel;
+    Panel3: TPanel;
+    SpeedButton2: TSpeedButton;
+    Image6: TImage;
+    Panel6: TPanel;
+    Image3: TImage;
+    SpeedButton5: TSpeedButton;
   private
     { Private declarations }
   public

@@ -247,6 +247,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButton5Click
       end
       object Image3: TImage
         Left = 8

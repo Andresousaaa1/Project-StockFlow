@@ -5,7 +5,7 @@ object FrmCliente: TFrmCliente
   BorderStyle = bsSingle
   Caption = 'StockFlow -  Clientes'
   ClientHeight = 622
-  ClientWidth = 944
+  ClientWidth = 932
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

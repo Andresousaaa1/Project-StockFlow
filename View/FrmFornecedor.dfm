@@ -5,7 +5,7 @@ object FrmFornecedores: TFrmFornecedores
   BorderStyle = bsSingle
   Caption = 'StockFlow - Fornecedor'
   ClientHeight = 622
-  ClientWidth = 944
+  ClientWidth = 932
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -22,9 +22,6 @@ object FrmFornecedores: TFrmFornecedores
     Color = 2894892
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 16
-    ExplicitTop = 16
-    ExplicitHeight = 582
     object Panel3: TPanel
       Left = 8
       Top = 182
