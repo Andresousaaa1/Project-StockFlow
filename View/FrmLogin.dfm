@@ -3,7 +3,7 @@ object FrmLogin: TFrmLogin
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'Form2'
+  Caption = 'Login'
   ClientHeight = 582
   ClientWidth = 932
   Color = clBtnFace
@@ -29,8 +29,6 @@ object FrmLogin: TFrmLogin
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitLeft = -16
-    ExplicitTop = 8
     DesignSize = (
       932
       582)
@@ -904,6 +902,7 @@ object FrmLogin: TFrmLogin
           Font.Name = 'Segoe UI'
           Font.Style = []
           ParentFont = False
+          OnClick = SpeedButton2Click
         end
       end
       object PnlUser: TPanel

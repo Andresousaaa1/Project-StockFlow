@@ -1,0 +1,38 @@
+unit FrmLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.Imaging.pngimage, Vcl.Skia, FrmProdutos;
+
+type
+  TFrmLogin = class(TForm)
+    pnlPrincipal: TPanel;
+    pnlLogin: TPanel;
+    Shape1: TShape;
+    ImgLogo: TImage;
+    LblText: TLabel;
+    EdtUser: TEdit;
+    EdtSenha: TEdit;
+    PnlButton: TPanel;
+    SpeedButton2: TSpeedButton;
+    ImgUsuario: TImage;
+    PnlUser: TPanel;
+    Panel3: TPanel;
+    ImgSenha: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLoginForm: TFrmLogin;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/09/06 09:02:11.000.383,=C:\Users\ACER\Desktop\StockFlow\Project-StockFlow\Unit1.pas</Transaction>
+    <Transaction>2025/09/06 09:02:39.000.545,C:\Users\ACER\Desktop\StockFlow\Project-StockFlow\View\FrmProdutos.dfm=C:\Users\ACER\Desktop\StockFlow\Project-StockFlow\Unit1.dfm</Transaction>
+    <Transaction>2025/09/06 09:02:39.000.545,C:\Users\ACER\Desktop\StockFlow\Project-StockFlow\View\FrmProdutos.pas=C:\Users\ACER\Desktop\StockFlow\Project-StockFlow\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

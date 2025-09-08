@@ -1,0 +1,16 @@
+program StockFlow;
+
+uses
+  Vcl.Forms,
+  FrmLogin in 'View\FrmLogin.pas' {FrmLogin},
+  FrmProdutos in 'View\FrmProdutos.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmLogin, FrmLoginForm);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
