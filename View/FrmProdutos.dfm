@@ -36,7 +36,7 @@ object FormProdutos: TFormProdutos
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
-      object SpeedButton3: TSpeedButton
+      object SpeedButtonCliente: TSpeedButton
         Left = 1
         Top = 0
         Width = 165
@@ -49,7 +49,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        OnClick = SpeedButton3Click
+        OnClick = SpeedButtonClienteClick
       end
       object Image5: TImage
         Left = 8
@@ -103,7 +103,7 @@ object FormProdutos: TFormProdutos
       Color = 3947580
       ParentBackground = False
       TabOrder = 1
-      object SpeedButton2: TSpeedButton
+      object SpeedButtonFornecedor: TSpeedButton
         Left = 0
         Top = 0
         Width = 165
@@ -116,7 +116,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        OnClick = SpeedButton2Click
+        OnClick = SpeedButtonFornecedorClick
       end
       object Image6: TImage
         Left = 8
@@ -179,7 +179,7 @@ object FormProdutos: TFormProdutos
       ParentBackground = False
       ParentFont = False
       TabOrder = 2
-      object SpeedButton4: TSpeedButton
+      object SpeedButtonUser: TSpeedButton
         Left = 0
         Top = -1
         Width = 165
@@ -192,7 +192,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        OnClick = SpeedButton4Click
+        OnClick = SpeedButtonUserClick
       end
       object Image4: TImage
         Left = 8
@@ -234,8 +234,8 @@ object FormProdutos: TFormProdutos
       ParentBackground = False
       ParentFont = False
       TabOrder = 3
-      object SpeedButton5: TSpeedButton
-        Left = 0
+      object SpeedButtonMovimentos: TSpeedButton
+        Left = 1
         Top = 0
         Width = 165
         Height = 41
@@ -247,7 +247,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        OnClick = SpeedButton5Click
+        OnClick = SpeedButtonMovimentosClick
       end
       object Image3: TImage
         Left = 8
@@ -305,7 +305,7 @@ object FormProdutos: TFormProdutos
       ParentBackground = False
       ParentFont = False
       TabOrder = 5
-      object SpeedButton6: TSpeedButton
+      object SpeedButtonRelatorios: TSpeedButton
         Left = 0
         Top = 2
         Width = 165
@@ -318,6 +318,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButtonRelatoriosClick
       end
       object Image7: TImage
         Left = 8
@@ -364,7 +365,7 @@ object FormProdutos: TFormProdutos
       ParentBackground = False
       ParentFont = False
       TabOrder = 4
-      object SpeedButton1: TSpeedButton
+      object SpeedButtonProd: TSpeedButton
         Left = 1
         Top = 1
         Width = 165
@@ -447,7 +448,7 @@ object FormProdutos: TFormProdutos
       Left = 316
       Top = 37
       Width = 135
-      Height = 19
+      Height = 20
       Caption = 'Unidade de Medida:'
     end
     object Label4: TLabel

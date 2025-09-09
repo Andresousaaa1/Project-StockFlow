@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons,
   Vcl.Imaging.pngimage, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Skia, FrmFornecedor, FrmClientes,
-  FrmUsuarios, FrmMovimentos;
+  FrmUsuarios, FrmMovimentos, FrmRelatorios;
 
 type
   TFormProdutos = class(TForm)
@@ -17,12 +17,12 @@ type
     Panel6: TPanel;
     Panel7: TPanel;
     Panel8: TPanel;
-    SpeedButton1: TSpeedButton;
-    SpeedButton2: TSpeedButton;
-    SpeedButton3: TSpeedButton;
-    SpeedButton4: TSpeedButton;
-    SpeedButton5: TSpeedButton;
-    SpeedButton6: TSpeedButton;
+    SpeedButtonProd: TSpeedButton;
+    SpeedButtonFornecedor: TSpeedButton;
+    SpeedButtonCliente: TSpeedButton;
+    SpeedButtonUser: TSpeedButton;
+    SpeedButtonMovimentos: TSpeedButton;
+    SpeedButtonRelatorios: TSpeedButton;
     GroupBoxProd1: TGroupBox;
     GroupBoxProd2: TGroupBox;
     EdtPrecoUnitario: TEdit;
@@ -52,10 +52,11 @@ type
     Image7: TImage;
     Panel2: TPanel;
     Image1: TImage;
-    procedure SpeedButton2Click(Sender: TObject);
-    procedure SpeedButton3Click(Sender: TObject);
-    procedure SpeedButton4Click(Sender: TObject);
-    procedure SpeedButton5Click(Sender: TObject);
+    procedure SpeedButtonFornecedorClick(Sender: TObject);
+    procedure SpeedButtonClienteClick(Sender: TObject);
+    procedure SpeedButtonUserClick(Sender: TObject);
+    procedure SpeedButtonMovimentosClick(Sender: TObject);
+    procedure SpeedButtonRelatoriosClick(Sender: TObject);
   private
     { Public declarations }
   public
@@ -68,6 +69,7 @@ var
   FrmCliente: TFrmCliente;
   FrmUsuario: TFrmUsuario;
   FrmMovimento: TFrmMovimento;
+  FrmRelatorio: TFrmRelatorio;
 
 
 implementation
@@ -75,7 +77,7 @@ implementation
 {$R *.dfm}
 
 
-procedure TFormProdutos.SpeedButton2Click(Sender: TObject);
+procedure TFormProdutos.SpeedButtonFornecedorClick(Sender: TObject);
 var
   frm: TFrmFornecedores;
 begin
@@ -87,7 +89,7 @@ begin
   end;
 end;
 
-procedure TFormProdutos.SpeedButton3Click(Sender: TObject);
+procedure TFormProdutos.SpeedButtonClienteClick(Sender: TObject);
 var
   frm: TFrmCliente;
 begin
@@ -98,7 +100,7 @@ begin
     frm.Free;  // libera a memória assim que fechar
   end;
 end;
-procedure TFormProdutos.SpeedButton4Click(Sender: TObject);
+procedure TFormProdutos.SpeedButtonUserClick(Sender: TObject);
 var
   frm: TFrmUsuario;
 begin
@@ -110,16 +112,28 @@ begin
   end;
 end;
 
-procedure TFormProdutos.SpeedButton5Click(Sender: TObject);
+procedure TFormProdutos.SpeedButtonMovimentosClick(Sender: TObject);
 var
-  frm: TFrmUsuario;
+  frm: TFrmMovimento;
 begin
-  frm := TFrmUsuario.Create(nil);
+  frm := TFrmMovimento.Create(nil);
   try
     frm.ShowModal;
   finally
     frm.Free;  // libera a memória assim que fechar
   end;
 end;
+procedure TFormProdutos.SpeedButtonRelatoriosClick(Sender: TObject);
+var
+  frm: TFrmRelatorio;
+begin
+  frm := TFrmRelatorio.Create(nil);
+  try
+    frm.ShowModal;
+  finally
+    frm.Free;  // libera a memória assim que fechar
+  end;
+end;
+
 end.
 

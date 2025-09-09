@@ -1896,28 +1896,28 @@ object FrmUsuario: TFrmUsuario
       Height = 20
       Caption = 'N'#237'vel de Acesso'
     end
-    object EdtSenhaUser: TEdit
+    object EdtPrecoUnitario: TEdit
       Left = 24
       Top = 129
       Width = 230
       Height = 28
       TabOrder = 0
     end
-    object EdtNomeUser: TEdit
+    object EdtNomeProduto: TEdit
       Left = 24
       Top = 61
       Width = 230
       Height = 28
       TabOrder = 1
     end
-    object EdtLoginUser: TEdit
+    object EdtEstMinimo: TEdit
       Left = 316
       Top = 62
       Width = 230
       Height = 28
       TabOrder = 2
     end
-    object ComboBox1User: TComboBox
+    object ComboBox1: TComboBox
       Left = 316
       Top = 129
       Width = 230
@@ -1942,7 +1942,7 @@ object FrmUsuario: TFrmUsuario
       Color = 16743168
       ParentBackground = False
       TabOrder = 0
-      object SpeedButtonEditarUser: TSpeedButton
+      object SpeedButtonEditar: TSpeedButton
         Left = 1
         Top = 1
         Width = 68
@@ -1968,7 +1968,7 @@ object FrmUsuario: TFrmUsuario
       Color = 3698944
       ParentBackground = False
       TabOrder = 1
-      object SpeedButtonSalvarUser: TSpeedButton
+      object SpeedButtonSalvar: TSpeedButton
         Left = 1
         Top = 1
         Width = 68
@@ -1996,7 +1996,7 @@ object FrmUsuario: TFrmUsuario
       Color = 8222060
       ParentBackground = False
       TabOrder = 2
-      object SpeedButtonCancelarUser: TSpeedButton
+      object SpeedButtonCancelar: TSpeedButton
         Left = 1
         Top = 1
         Width = 66
@@ -2024,7 +2024,6 @@ object FrmUsuario: TFrmUsuario
     Color = 2894892
     ParentBackground = False
     TabOrder = 3
-    ExplicitLeft = 8
     object Panel3: TPanel
       Left = 8
       Top = 182
@@ -2038,7 +2037,7 @@ object FrmUsuario: TFrmUsuario
         Top = 0
         Width = 165
         Height = 41
-        Caption = 'FORNECEDORES'
+        Caption = 'USU'#193'RIOS'
         Flat = True
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWhite

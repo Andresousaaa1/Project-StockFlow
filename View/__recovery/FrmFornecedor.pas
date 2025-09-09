@@ -11,7 +11,7 @@ type
   TFrmFornecedores = class(TForm)
     Panel1: TPanel;
     Panel3: TPanel;
-    SpeedButton2: TSpeedButton;
+    SpeedButtonFornecedor: TSpeedButton;
     Image6: TImage;
     Panel6: TPanel;
     SpeedButton5: TSpeedButton;
@@ -23,17 +23,17 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
-    EdtContatoFornecedor: TEdit;
-    EdtNomeFornecedor: TEdit;
-    EdtCnpjFornecedor: TEdit;
-    EdtEnderecoFornecedor: TEdit;
+    EdtPrecoUnitario: TEdit;
+    EdtNomeProduto: TEdit;
+    EdtEstMinimo: TEdit;
+    Edit1: TEdit;
     GroupBoxProd2: TGroupBox;
     Panel10: TPanel;
-    SpeedButtonEditarFor: TSpeedButton;
+    SpeedButtonEditar: TSpeedButton;
     Panel11: TPanel;
-    SpeedButtonSalvarFor: TSpeedButton;
+    SpeedButtonSalvar: TSpeedButton;
     Panel12: TPanel;
-    SpeedButtonCancelarFor: TSpeedButton;
+    SpeedButtonCancelar: TSpeedButton;
   private
     { Private declarations }
   public

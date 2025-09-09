@@ -30,7 +30,7 @@ object FrmFornecedores: TFrmFornecedores
       Color = 3947580
       ParentBackground = False
       TabOrder = 0
-      object SpeedButton2: TSpeedButton
+      object SpeedButtonFornecedor: TSpeedButton
         Left = 0
         Top = 0
         Width = 165
@@ -2045,28 +2045,28 @@ object FrmFornecedores: TFrmFornecedores
       Height = 20
       Caption = 'Endere'#231'o'
     end
-    object EdtContatoFornecedor: TEdit
+    object EdtPrecoUnitario: TEdit
       Left = 24
       Top = 129
       Width = 230
       Height = 28
       TabOrder = 0
     end
-    object EdtNomeFornecedor: TEdit
+    object EdtNomeProduto: TEdit
       Left = 24
       Top = 61
       Width = 230
       Height = 28
       TabOrder = 1
     end
-    object EdtCnpjFornecedor: TEdit
+    object EdtEstMinimo: TEdit
       Left = 316
       Top = 62
       Width = 230
       Height = 28
       TabOrder = 2
     end
-    object EdtEnderecoFornecedor: TEdit
+    object Edit1: TEdit
       Left = 316
       Top = 129
       Width = 230
@@ -2091,7 +2091,7 @@ object FrmFornecedores: TFrmFornecedores
       Color = 16743168
       ParentBackground = False
       TabOrder = 0
-      object SpeedButtonEditarFor: TSpeedButton
+      object SpeedButtonEditar: TSpeedButton
         Left = 1
         Top = 1
         Width = 68
@@ -2117,7 +2117,7 @@ object FrmFornecedores: TFrmFornecedores
       Color = 3698944
       ParentBackground = False
       TabOrder = 1
-      object SpeedButtonSalvarFor: TSpeedButton
+      object SpeedButtonSalvar: TSpeedButton
         Left = 1
         Top = 1
         Width = 68
@@ -2131,10 +2131,8 @@ object FrmFornecedores: TFrmFornecedores
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 5
-        ExplicitWidth = 70
-        ExplicitHeight = 20
+        ExplicitLeft = 31
+        ExplicitTop = 9
       end
     end
     object Panel12: TPanel
@@ -2145,7 +2143,7 @@ object FrmFornecedores: TFrmFornecedores
       Color = 8222060
       ParentBackground = False
       TabOrder = 2
-      object SpeedButtonCancelarFor: TSpeedButton
+      object SpeedButtonCancelar: TSpeedButton
         Left = 1
         Top = 1
         Width = 66
@@ -2159,8 +2157,7 @@ object FrmFornecedores: TFrmFornecedores
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        ExplicitWidth = 68
-        ExplicitHeight = 24
+        ExplicitTop = 9
       end
     end
   end
