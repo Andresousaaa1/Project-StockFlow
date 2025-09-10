@@ -28,12 +28,24 @@ type
     SpeedButtonCancelar: TSpeedButton;
     ComboBox1: TComboBox;
     Panel1: TPanel;
+    Panel4: TPanel;
+    SpeedButtonCliente: TSpeedButton;
+    Image5: TImage;
     Panel3: TPanel;
-    SpeedButton2: TSpeedButton;
+    SpeedButtonFornecedor: TSpeedButton;
     Image6: TImage;
+    Panel5: TPanel;
+    SpeedButtonUser: TSpeedButton;
+    Image4: TImage;
     Panel6: TPanel;
+    SpeedButtonMovimentos: TSpeedButton;
     Image3: TImage;
-    SpeedButton5: TSpeedButton;
+    Panel8: TPanel;
+    SpeedButtonRelatorios: TSpeedButton;
+    Image7: TImage;
+    Panel7: TPanel;
+    SpeedButtonProd: TSpeedButton;
+    Image2: TImage;
   private
     { Private declarations }
   public

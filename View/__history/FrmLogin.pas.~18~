@@ -1,0 +1,74 @@
+unit FrmLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.Imaging.pngimage, Vcl.Skia, FrmProdutos, FireDAC.Comp.Client,
+  UUsuarioModel, UAppSession, UUsuarioController, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG,
+  FireDAC.Phys.PGDef, FireDAC.VCLUI.Wait, Data.DB;
+
+type
+  TFrmLogin = class(TForm)
+    pnlPrincipal: TPanel;
+    pnlLogin: TPanel;
+    Shape1: TShape;
+    ImgLogo: TImage;
+    LblText: TLabel;
+    EdtUser: TEdit;
+    EdtSenha: TEdit;
+    PnlButton: TPanel;
+    SpeedButton2: TSpeedButton;
+    ImgUsuario: TImage;
+    PnlUser: TPanel;
+    Panel3: TPanel;
+    ImgSenha: TImage;
+    FDConnectionlogin: TFDConnection;
+    FDPhysPgDriverLink1: TFDPhysPgDriverLink;
+    procedure SpeedButton2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLoginForm: TFrmLogin;
+  FormProdutos: TFormProdutos;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TFrmLogin.SpeedButton2Click(Sender: TObject);
+var
+  Usuario: TUsuario;
+begin
+  Usuario := TUsuarioController.ValidarLogin(EdtUser.Text, EdtSenha.Text, FDConnectionlogin);
+  if Assigned(Usuario) then
+  begin
+    UsuarioLogado := Usuario;  // salva o usuário logado globalmente
+
+    ShowMessage('Bem-vindo, ' + Usuario.Nome + '!' + sLineBreak +
+                'Acesso: ' + Usuario.NivelAcesso);
+
+    Hide;
+    FormProdutos := TFormProdutos.Create(nil);
+  try
+    FormProdutos.ShowModal;
+  finally
+    FormProdutos.Free;
+  end;
+  Show;
+  end
+  else
+  begin
+    ShowMessage('Usuário ou senha inválidos.');
+  end;
+end;
+
+end.

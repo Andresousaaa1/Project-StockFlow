@@ -1,0 +1,87 @@
+unit FrmProdutos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons,
+  Vcl.Imaging.pngimage, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Skia, FrmFornecedor, FrmClientes,
+  FrmUsuarios, FrmMovimentos, FrmRelatorios, UAppSession;
+
+type
+  TFormProdutos = class(TForm)
+    Panel1: TPanel;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    SpeedButtonProd: TSpeedButton;
+    SpeedButtonFornecedor: TSpeedButton;
+    SpeedButtonCliente: TSpeedButton;
+    SpeedButtonUser: TSpeedButton;
+    SpeedButtonMovimentos: TSpeedButton;
+    SpeedButtonRelatorios: TSpeedButton;
+    GroupBoxProd1: TGroupBox;
+    GroupBoxProd2: TGroupBox;
+    EdtPrecoUnitario: TEdit;
+    DBGrid1: TDBGrid;
+    Panel9: TPanel;
+    Panel10: TPanel;
+    Panel11: TPanel;
+    Panel12: TPanel;
+    Panel13: TPanel;
+    SpeedButtonSalvar: TSpeedButton;
+    SpeedButtonCancelar: TSpeedButton;
+    SpeedButtonExcluir: TSpeedButton;
+    SpeedButtonNovo: TSpeedButton;
+    SpeedButtonEditar: TSpeedButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    EdtEstMinimo: TEdit;
+    EdtNomeProduto: TEdit;
+    Edit1: TEdit;
+    Image2: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image3: TImage;
+    Image7: TImage;
+    Panel2: TPanel;
+    Image1: TImage;
+    procedure FormShow(Sender: TObject);
+  private
+    { Public declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormProdutos: TFormProdutos;
+  FrmFornecedores: TFrmFornecedores;
+  FrmCliente: TFrmCliente;
+  FrmUsuario: TFrmUsuario;
+  FrmMovimento: TFrmMovimento;
+  FrmRelatorio: TFrmRelatorio;
+
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TFormProdutos.FormShow(Sender: TObject);
+begin
+  if UsuarioLogado.NivelAcesso <> 'gerente' then
+  begin
+    SpeedButtonExcluir.Enabled := False;
+    SpeedButtonNovo.Enabled := False;
+  end;
+end;
+
+end.
+

@@ -6,16 +6,8 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Skia, Vcl.ExtCtrls, Vcl.Buttons,
   Vcl.Imaging.pngimage, Vcl.StdCtrls;
-
 type
   TFrmCliente = class(TForm)
-    Panel1: TPanel;
-    Panel3: TPanel;
-    SpeedButton2: TSpeedButton;
-    Image6: TImage;
-    Panel6: TPanel;
-    Image3: TImage;
-    SpeedButton5: TSpeedButton;
     Panel2: TPanel;
     Image1: TImage;
     GroupBoxProd1: TGroupBox;
@@ -23,17 +15,36 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
-    EdtContatoCliente: TEdit;
-    EdtNomeCliente: TEdit;
-    EdtCpfCliente: TEdit;
-    EdtEnderecoCliente: TEdit;
+    EdtPrecoUnitario: TEdit;
+    EdtNomeProduto: TEdit;
+    EdtEstMinimo: TEdit;
+    Edit1: TEdit;
     GroupBoxProd2: TGroupBox;
     Panel10: TPanel;
-    SpeedButtonEditarCli: TSpeedButton;
+    SpeedButtonEditar: TSpeedButton;
     Panel11: TPanel;
-    SpeedButtonSalvarCli: TSpeedButton;
+    SpeedButtonSalvar: TSpeedButton;
     Panel12: TPanel;
-    SpeedButtonCancelarCli: TSpeedButton;
+    SpeedButtonCancelar: TSpeedButton;
+    Panel1: TPanel;
+    Panel4: TPanel;
+    SpeedButtonCliente: TSpeedButton;
+    Image5: TImage;
+    Panel3: TPanel;
+    SpeedButtonFornecedor: TSpeedButton;
+    Image6: TImage;
+    Panel5: TPanel;
+    SpeedButtonUser: TSpeedButton;
+    Image4: TImage;
+    Panel6: TPanel;
+    SpeedButtonMovimentos: TSpeedButton;
+    Image3: TImage;
+    Panel8: TPanel;
+    SpeedButtonRelatorios: TSpeedButton;
+    Image7: TImage;
+    Panel7: TPanel;
+    SpeedButtonProd: TSpeedButton;
+    Image2: TImage;
   private
     { Private declarations }
   public
@@ -44,6 +55,7 @@ var
   FrmCliente: TFrmCliente;
 
 implementation
+
 
 {$R *.dfm}
 

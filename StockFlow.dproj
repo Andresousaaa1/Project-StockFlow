@@ -148,6 +148,17 @@
             <Form>FrmMovimento</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View\FrmRelatorios.pas">
+            <Form>FrmRelatorio</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="DataBase\DataBase.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Models\UUsuarioModel.pas"/>
+        <DCCReference Include="Controller\UAppSession.pas"/>
+        <DCCReference Include="Controller\UUsuarioController.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

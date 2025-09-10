@@ -9,16 +9,6 @@ uses
 
 type
   TFrmRelatorio = class(TForm)
-    Panel1: TPanel;
-    Panel6: TPanel;
-    Image3: TImage;
-    SpeedButtonRelatorios: TSpeedButton;
-    Panel8: TPanel;
-    Image7: TImage;
-    SpeedButtonRelator: TSpeedButton;
-    Panel7: TPanel;
-    Image2: TImage;
-    SpeedButtonProd: TSpeedButton;
     Panel2: TPanel;
     Image1: TImage;
     GroupBoxProd1: TGroupBox;
@@ -39,6 +29,25 @@ type
     Panel11: TPanel;
     Image10: TImage;
     SpeedButtonRelatorFinanceiro: TSpeedButton;
+    Panel1: TPanel;
+    Panel6: TPanel;
+    SpeedButtonCliente: TSpeedButton;
+    Image2: TImage;
+    Panel7: TPanel;
+    SpeedButtonFornecedor: TSpeedButton;
+    Image3: TImage;
+    Panel8: TPanel;
+    SpeedButtonUser: TSpeedButton;
+    Image7: TImage;
+    Panel12: TPanel;
+    SpeedButtonMovimentos: TSpeedButton;
+    Image11: TImage;
+    Panel13: TPanel;
+    SpeedButtonRelatorios: TSpeedButton;
+    Image12: TImage;
+    Panel14: TPanel;
+    SpeedButtonProd: TSpeedButton;
+    Image13: TImage;
   private
     { Private declarations }
   public
@@ -49,6 +58,7 @@ var
   FrmRelatorio: TFrmRelatorio;
 
 implementation
+
 
 {$R *.dfm}
 

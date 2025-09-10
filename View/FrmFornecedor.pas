@@ -9,13 +9,6 @@ uses
 
 type
   TFrmFornecedores = class(TForm)
-    Panel1: TPanel;
-    Panel3: TPanel;
-    SpeedButton2: TSpeedButton;
-    Image6: TImage;
-    Panel6: TPanel;
-    SpeedButton5: TSpeedButton;
-    Image3: TImage;
     Panel2: TPanel;
     Image1: TImage;
     GroupBoxProd1: TGroupBox;
@@ -34,6 +27,25 @@ type
     SpeedButtonSalvar: TSpeedButton;
     Panel12: TPanel;
     SpeedButtonCancelar: TSpeedButton;
+    Panel1: TPanel;
+    Panel4: TPanel;
+    SpeedButtonCliente: TSpeedButton;
+    Image5: TImage;
+    Panel3: TPanel;
+    SpeedButtonFornecedor: TSpeedButton;
+    Image6: TImage;
+    Panel5: TPanel;
+    SpeedButtonUser: TSpeedButton;
+    Image4: TImage;
+    Panel6: TPanel;
+    SpeedButtonMovimentos: TSpeedButton;
+    Image3: TImage;
+    Panel8: TPanel;
+    SpeedButtonRelatorios: TSpeedButton;
+    Image7: TImage;
+    Panel7: TPanel;
+    SpeedButtonProd: TSpeedButton;
+    Image2: TImage;
   private
     { Private declarations }
   public
@@ -44,6 +56,7 @@ var
   FrmFornecedores: TFrmFornecedores;
 
 implementation
+
 
 {$R *.dfm}
 

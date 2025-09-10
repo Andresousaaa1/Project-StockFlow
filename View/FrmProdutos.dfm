@@ -12,6 +12,8 @@ object FormProdutos: TFormProdutos
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poScreenCenter
+  OnShow = FormShow
   TextHeight = 15
   object Panel1: TPanel
     Left = 0
@@ -37,7 +39,7 @@ object FormProdutos: TFormProdutos
       ParentFont = False
       TabOrder = 0
       object SpeedButtonCliente: TSpeedButton
-        Left = 1
+        Left = 0
         Top = 0
         Width = 165
         Height = 41
@@ -235,8 +237,8 @@ object FormProdutos: TFormProdutos
       ParentFont = False
       TabOrder = 3
       object SpeedButtonMovimentos: TSpeedButton
-        Left = 1
-        Top = 0
+        Left = 0
+        Top = 1
         Width = 165
         Height = 41
         Caption = 'MOVIMENTOS'
@@ -378,6 +380,7 @@ object FormProdutos: TFormProdutos
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        OnClick = SpeedButtonProdClick
       end
       object Image2: TImage
         Left = 8
